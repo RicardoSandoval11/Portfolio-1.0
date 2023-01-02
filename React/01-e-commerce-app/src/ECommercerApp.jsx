@@ -1,9 +1,11 @@
+import { AppRouter } from "./router/AppRouter"
 
 
 export const ECommercerApp = () => {
   return (
     <>
-      <h1>App</h1>
+      <AppRouter/>
+
     </>
   )
 }
